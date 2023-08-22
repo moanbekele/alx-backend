@@ -5,8 +5,8 @@ from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
-    """A data structure that allows for 
-    the efficient storage and retrieval of data.
+    """A data structure that allows for the
+    efficient storage and retrieval of data.
     """
     def put(self, key, item):
         """Adds an item in the cache.
